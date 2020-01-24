@@ -1382,7 +1382,7 @@ void GM_MISRAC_2012_R18_6(void)
 void GM_MISRA_2012_R18_8(int16_t n, uint16_t a[10][n])  /* Non-compliant */
 {
     n = -1;
-    uint16_t vla [n];               /* Non-compliant - Undefined if n <=0 */
+    uint16_t vla [10][n];               /* Non-compliant - Undefined if n <=0 */
 }
 #endif
 
