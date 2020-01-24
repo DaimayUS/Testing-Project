@@ -37,10 +37,11 @@
 /* Rule 21.10  - Following shall not be used */
 #include <time.h>
 
-/* Rule 21.11  - Following shall not be used */
+/* Rule 21.11  - Following shall not be used 
 #ifndef _MSC_VER
 #include <tgmath.h>
 #endif
+*/
 
 #ifdef _MSC_VER
 #define INLINE  __inline
